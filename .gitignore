@@ -1,0 +1,18 @@
+# Python cache files (auto-generated, differ per machine)
+__pycache__/
+*.pyc
+
+# Virtual environment (each person builds their own from requirements.txt)
+.venv/
+venv/
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets, if anyone ever adds API keys
+.env
