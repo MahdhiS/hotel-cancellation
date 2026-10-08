@@ -6,6 +6,7 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
     confusion_matrix,
+    accuracy_score
 )
 
 
@@ -25,6 +26,7 @@ def evaluate(model, X_val, y_val, threshold=None):
     pred = (score >= thr).astype(int)
 
     return {
+        "accuracy": accuracy_score(y_true, pred),
         "roc_auc": roc_auc_score(y_true, score),
         "pr_auc": average_precision_score(y_true, score),
         "precision": precision_score(y_true, pred, zero_division=0),
