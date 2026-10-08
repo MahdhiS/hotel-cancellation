@@ -1,0 +1,730 @@
+|--- numeric__lead_time <= 11.50
+|   |--- categorical__agent_9.0 <= 0.50
+|   |   |--- numeric__previous_cancellations <= 0.50
+|   |   |   |--- numeric__previous_bookings_not_canceled <= 0.50
+|   |   |   |   |--- categorical__deposit_type_Non Refund <= 0.50
+|   |   |   |   |   |--- numeric__lead_time <= 1.50
+|   |   |   |   |   |   |--- categorical__hotel_City Hotel <= 0.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 9.40
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 7.00
+|   |   |   |   |   |   |   |   |   |--- categorical__market_segment_Direct <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__market_segment_Direct >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  7.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__adr >  9.40
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 123.10
+|   |   |   |   |   |   |   |   |   |--- categorical__market_segment_Groups <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__market_segment_Groups >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  123.10
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__hotel_City Hotel >  0.50
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest <= 0.50
+|   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_April <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 175.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  175.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_April >  0.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Wednesday <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Wednesday >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest >  0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_0.0 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_0.0 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__lead_time >  1.50
+|   |   |   |   |   |   |--- categorical__agent_0.0 <= 0.50
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 7.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 40.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  40.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  7.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__agent_0.0 >  0.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 98.55
+|   |   |   |   |   |   |   |   |--- numeric__total_nights <= 5.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_June <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_June >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__total_nights >  5.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  98.55
+|   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Friday <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Friday >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 131.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  131.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- categorical__deposit_type_Non Refund >  0.50
+|   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 16.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__arrival_date_day_of_month >  16.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- numeric__previous_bookings_not_canceled >  0.50
+|   |   |   |   |--- categorical__hotel_Resort Hotel <= 0.50
+|   |   |   |   |   |--- numeric__arrival_date_week_number <= 7.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__arrival_date_week_number >  7.50
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 9.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number >  9.50
+|   |   |   |   |   |   |   |--- numeric__lead_time <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 50.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_October <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_October >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  50.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__lead_time >  0.50
+|   |   |   |   |   |   |   |   |--- categorical__season_Autumn <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 7.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  7.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__season_Autumn >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- categorical__hotel_Resort Hotel >  0.50
+|   |   |   |   |   |--- categorical__company_Other <= 0.50
+|   |   |   |   |   |   |--- categorical__arrival_date_month_October <= 0.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 29.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  29.50
+|   |   |   |   |   |   |   |   |--- categorical__distribution_channel_TA/TO <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__distribution_channel_TA/TO >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__arrival_date_month_October >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__company_Other >  0.50
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 17.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 57.25
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  57.25
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number >  17.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 11.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  11.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- numeric__previous_cancellations >  0.50
+|   |   |   |--- numeric__previous_bookings_not_canceled <= 0.50
+|   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |--- numeric__total_guests <= 1.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numeric__total_guests >  1.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- numeric__previous_bookings_not_canceled >  0.50
+|   |   |   |   |--- numeric__previous_bookings_not_canceled <= 3.50
+|   |   |   |   |   |--- numeric__adr <= 77.00
+|   |   |   |   |   |   |--- categorical__season_Spring <= 0.50
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest >  0.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 13.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  13.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__season_Spring >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__adr >  77.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numeric__previous_bookings_not_canceled >  3.50
+|   |   |   |   |   |--- categorical__market_segment_Complementary <= 0.50
+|   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled <= 43.50
+|   |   |   |   |   |   |   |--- categorical__season_Spring <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 2.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  2.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__season_Spring >  0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 17.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  17.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled >  43.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__market_segment_Complementary >  0.50
+|   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 16.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  16.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |--- categorical__agent_9.0 >  0.50
+|   |   |--- numeric__lead_time <= 4.50
+|   |   |   |--- numeric__stays_in_weekend_nights <= 2.50
+|   |   |   |   |--- numeric__lead_time <= 2.50
+|   |   |   |   |   |--- categorical__meal_HB <= 0.50
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 22.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 85.16
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 6.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 79.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  79.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  6.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  85.16
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 15.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Thursday <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Thursday >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  15.50
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number >  22.50
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__adults <= 2.50
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adults >  2.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 28.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  28.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__is_repeated_guest >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__meal_HB >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numeric__lead_time >  2.50
+|   |   |   |   |   |--- numeric__total_guests <= 1.50
+|   |   |   |   |   |   |--- numeric__adr <= 149.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 39.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  39.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 10.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 97.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  97.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__adr >  149.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__total_guests >  1.50
+|   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 23.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 152.50
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  152.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 3.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  3.50
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  23.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 137.17
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 113.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  113.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_weekend_nights >  0.50
+|   |   |   |   |   |   |   |   |   |--- categorical__meal_SC <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__meal_SC >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  137.17
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- numeric__stays_in_weekend_nights >  2.50
+|   |   |   |   |--- class: 1
+|   |   |--- numeric__lead_time >  4.50
+|   |   |   |--- numeric__total_nights <= 7.50
+|   |   |   |   |--- numeric__previous_cancellations <= 0.50
+|   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 37.50
+|   |   |   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 96.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__adr >  96.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 135.49
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 33.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  33.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  135.49
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number >  37.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 50.50
+|   |   |   |   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 41.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  41.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  50.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 86.75
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  86.75
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |--- numeric__adr <= 79.58
+|   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Tuesday <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2016.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 72.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  72.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Tuesday >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__adr >  79.58
+|   |   |   |   |   |   |   |--- numeric__adr <= 83.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  83.01
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 7.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 18.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  18.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  7.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 87.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  87.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numeric__previous_cancellations >  0.50
+|   |   |   |   |   |--- numeric__adr <= 97.83
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__adr >  97.83
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- numeric__total_nights >  7.50
+|   |   |   |   |--- numeric__lead_time <= 7.50
+|   |   |   |   |   |--- numeric__adr <= 95.47
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__adr >  95.47
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numeric__lead_time >  7.50
+|   |   |   |   |   |--- numeric__adr <= 111.10
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numeric__adr >  111.10
+|   |   |   |   |   |   |--- class: 1
+|--- numeric__lead_time >  11.50
+|   |--- categorical__market_segment_Online TA <= 0.50
+|   |   |--- categorical__deposit_type_Non Refund <= 0.50
+|   |   |   |--- numeric__previous_cancellations <= 0.50
+|   |   |   |   |--- categorical__market_segment_Direct <= 0.50
+|   |   |   |   |   |--- categorical__agent_28.0 <= 0.50
+|   |   |   |   |   |   |--- numeric__adr <= 115.12
+|   |   |   |   |   |   |   |--- numeric__total_nights <= 4.50
+|   |   |   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 213.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  213.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__total_nights >  4.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 307.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  307.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |   |--- categorical__hotel_Resort Hotel <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__hotel_Resort Hotel >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__adr >  115.12
+|   |   |   |   |   |   |   |--- categorical__agent_1.0 <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_July <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_July >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 162.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  162.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__agent_1.0 >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__agent_28.0 >  0.50
+|   |   |   |   |   |   |--- categorical__arrival_date_month_August <= 0.50
+|   |   |   |   |   |   |   |--- categorical__arrival_date_month_July <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 57.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 41.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  41.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  57.50
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- categorical__arrival_date_month_July >  0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 18.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  18.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- categorical__arrival_date_month_August >  0.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- categorical__market_segment_Direct >  0.50
+|   |   |   |   |   |--- numeric__adults <= 4.50
+|   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 8.50
+|   |   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__adults <= 1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 95.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  95.75
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adults >  1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 295.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  295.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__previous_bookings_not_canceled >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__stays_in_week_nights >  8.50
+|   |   |   |   |   |   |   |--- categorical__hotel_City Hotel <= 0.50
+|   |   |   |   |   |   |   |   |--- categorical__season_Winter <= 0.50
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_250.0 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_250.0 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__season_Winter >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__hotel_City Hotel >  0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 14.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  14.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numeric__adults >  4.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- numeric__previous_cancellations >  0.50
+|   |   |   |   |--- numeric__previous_bookings_not_canceled <= 1.50
+|   |   |   |   |   |--- categorical__market_segment_Corporate <= 0.50
+|   |   |   |   |   |   |--- categorical__agent_0.0 <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__agent_0.0 >  0.50
+|   |   |   |   |   |   |   |--- numeric__total_nights <= 5.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__total_nights >  5.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- categorical__market_segment_Corporate >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numeric__previous_bookings_not_canceled >  1.50
+|   |   |   |   |   |--- categorical__company_0.0 <= 0.50
+|   |   |   |   |   |   |--- numeric__adr <= 88.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 33.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 20.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  20.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  33.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__adr >  88.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- categorical__company_0.0 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- categorical__deposit_type_Non Refund >  0.50
+|   |   |   |--- categorical__company_0.0 <= 0.50
+|   |   |   |   |--- numeric__arrival_date_week_number <= 36.50
+|   |   |   |   |   |--- numeric__adr <= 103.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numeric__adr >  103.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numeric__arrival_date_week_number >  36.50
+|   |   |   |   |   |--- numeric__total_nights <= 2.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- numeric__total_nights >  2.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- categorical__company_0.0 >  0.50
+|   |   |   |   |--- categorical__arrival_date_month_April <= 0.50
+|   |   |   |   |   |--- categorical__distribution_channel_Direct <= 0.50
+|   |   |   |   |   |   |--- numeric__total_nights <= 3.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numeric__total_nights >  3.50
+|   |   |   |   |   |   |   |--- categorical__season_Summer <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__season_Summer >  0.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- categorical__distribution_channel_Direct >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categorical__arrival_date_month_April >  0.50
+|   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 4.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__arrival_date_day_of_month >  4.50
+|   |   |   |   |   |   |--- categorical__meal_HB <= 0.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- categorical__meal_HB >  0.50
+|   |   |   |   |   |   |   |--- numeric__lead_time <= 181.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__lead_time >  181.50
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |--- categorical__market_segment_Online TA >  0.50
+|   |   |--- numeric__previous_cancellations <= 0.50
+|   |   |   |--- categorical__agent_7.0 <= 0.50
+|   |   |   |   |--- categorical__agent_241.0 <= 0.50
+|   |   |   |   |   |--- categorical__agent_Other <= 0.50
+|   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |--- numeric__lead_time <= 53.50
+|   |   |   |   |   |   |   |   |--- categorical__season_Summer <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights <= 4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights >  4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__season_Summer >  0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adults <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- numeric__adults >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__lead_time >  53.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 165.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_July <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_date_month_July >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  165.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  42.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 4.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 26.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 59.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  59.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  26.50
+|   |   |   |   |   |   |   |   |   |--- categorical__season_Winter <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__season_Winter >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  4.50
+|   |   |   |   |   |   |   |   |--- numeric__adults <= 1.50
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_9.0 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- categorical__agent_9.0 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__adults >  1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 242.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  242.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- categorical__agent_Other >  0.50
+|   |   |   |   |   |   |--- numeric__lead_time <= 228.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 92.53
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 11.00
+|   |   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_A <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_A >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  11.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__adr >  92.53
+|   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_G <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 19.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  19.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_G >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- numeric__lead_time >  228.50
+|   |   |   |   |   |   |   |--- categorical__arrival_date_month_September <= 0.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 15.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  15.50
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights <= 5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- numeric__total_nights >  5.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- categorical__arrival_date_month_September >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- categorical__agent_241.0 >  0.50
+|   |   |   |   |   |--- numeric__adr <= 216.95
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 24.50
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights <= 1.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 48.90
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  48.90
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__stays_in_week_nights >  1.50
+|   |   |   |   |   |   |   |   |--- numeric__adr <= 33.57
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__adr >  33.57
+|   |   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_E <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__reserved_room_type_E >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__arrival_date_week_number >  24.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 5.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 31.50
+|   |   |   |   |   |   |   |   |   |--- numeric__total_guests <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__total_guests >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  31.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  5.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 50.50
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Friday <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- categorical__arrival_day_of_week_Friday >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  50.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 55.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  55.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__adr >  216.95
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- categorical__agent_7.0 >  0.50
+|   |   |   |   |--- numeric__adr <= 131.21
+|   |   |   |   |   |--- numeric__arrival_date_week_number <= 51.50
+|   |   |   |   |   |   |--- numeric__total_nights <= 1.50
+|   |   |   |   |   |   |   |--- numeric__adults <= 1.50
+|   |   |   |   |   |   |   |   |--- categorical__season_Autumn <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__season_Autumn >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adults >  1.50
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 38.50
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time <= 43.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__lead_time >  43.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  38.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  17.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__total_nights >  1.50
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 3.50
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 42.00
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  42.00
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  12.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- numeric__arrival_date_week_number >  3.50
+|   |   |   |   |   |   |   |   |--- numeric__total_guests <= 1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_year <= 2015.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_year >  2015.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__total_guests >  1.50
+|   |   |   |   |   |   |   |   |   |--- numeric__adr <= 96.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__adr >  96.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- numeric__arrival_date_week_number >  51.50
+|   |   |   |   |   |   |--- numeric__lead_time <= 118.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 89.31
+|   |   |   |   |   |   |   |   |--- numeric__lead_time <= 70.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- numeric__lead_time >  70.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  89.31
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__lead_time >  118.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numeric__adr >  131.21
+|   |   |   |   |   |--- categorical__reserved_room_type_D <= 0.50
+|   |   |   |   |   |   |--- numeric__lead_time <= 122.50
+|   |   |   |   |   |   |   |--- numeric__adr <= 214.48
+|   |   |   |   |   |   |   |   |--- categorical__season_Spring <= 0.50
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month <= 19.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- numeric__arrival_date_day_of_month >  19.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- categorical__season_Spring >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- numeric__adr >  214.48
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- numeric__lead_time >  122.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- categorical__reserved_room_type_D >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- numeric__previous_cancellations >  0.50
+|   |   |   |--- numeric__previous_bookings_not_canceled <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- numeric__previous_bookings_not_canceled >  0.50
+|   |   |   |   |--- class: 0
