@@ -1,0 +1,72 @@
+{
+  "best_params": {
+    "learning_rate": 0.14153209091575195,
+    "max_depth": 9,
+    "min_child_weight": 11,
+    "subsample": 0.8370350551805199,
+    "colsample_bytree": 0.5129038626873701,
+    "gamma": 0.460157654797554,
+    "reg_alpha": 0.9739058883716121,
+    "reg_lambda": 8.110057891463468,
+    "scale_pos_weight": 2.496338620253714
+  },
+  "n_estimators": 103,
+  "decision_threshold": 0.5,
+  "recency_halflife_days": 180,
+  "input_columns": [
+    "booking_id",
+    "hotel",
+    "lead_time",
+    "arrival_date_year",
+    "arrival_date_month",
+    "arrival_date_week_number",
+    "arrival_date_day_of_month",
+    "stays_in_weekend_nights",
+    "stays_in_week_nights",
+    "adults",
+    "children",
+    "babies",
+    "meal",
+    "market_segment",
+    "distribution_channel",
+    "is_repeated_guest",
+    "previous_cancellations",
+    "previous_bookings_not_canceled",
+    "reserved_room_type",
+    "deposit_type",
+    "agent",
+    "company",
+    "adr",
+    "total_nights",
+    "total_guests",
+    "has_kids",
+    "season",
+    "arrival_day_of_week",
+    "arrival_date_month_num",
+    "arrival_date",
+    "booking_date",
+    "days_since_arrival"
+  ],
+  "validation_metrics": {
+    "accuracy": 0.9364123159303882,
+    "roc_auc": 0.9991484800392814,
+    "pr_auc": 0.9979152038810134,
+    "precision": 0.9963310232368529,
+    "recall": 0.7883870967741935,
+    "f1": 0.8802449126598235,
+    "confusion_matrix": [
+      [
+        7349,
+        9
+      ],
+      [
+        656,
+        2444
+      ]
+    ]
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "xgboost": "3.2.0"
+  }
+}
