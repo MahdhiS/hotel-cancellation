@@ -6,3 +6,4 @@ seaborn
 joblib 
 kmodes 
 ipykernel
+xgboost==3.2.0
