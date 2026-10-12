@@ -1,4 +1,4 @@
 segment,segment_name,own_best_threshold,gain_vs_step3_%,final_threshold
 1,Short solo stays,0.35,0.0,0.35
-2,Short stays for two,0.3,1.4,0.35
+2,Short stays for two,0.35,0.0,0.35
 3,Long planned holidays,0.35,0.0,0.35
