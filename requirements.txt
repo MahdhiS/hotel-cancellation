@@ -1,9 +1,14 @@
 pandas 
+duckdb
 numpy 
 scikit-learn 
 matplotlib 
 seaborn 
 joblib 
 kmodes 
+fsspec
+s3fs
 ipykernel
+optuna
+kmodes
 xgboost==3.2.0
